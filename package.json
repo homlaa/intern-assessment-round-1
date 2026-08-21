@@ -1,5 +1,14 @@
 {
+  "name": "intern-assessment-round-1",
+  "version": "1.0.0",
+  "description": "Registration form and attendee API for the assessment",
+  "main": "register.js",
+  "scripts": {
+    "start": "node register.js",
+    "test": "node --test"
+  },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "sqlite3": "^5.4.2"
   }
 }
