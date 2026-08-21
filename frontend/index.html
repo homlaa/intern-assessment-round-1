@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="regForm">
+    <label>First Name<input type="text" id="firstName"></label>
+    <label>Last Name<input type="text" id="lastName"></label>
+    <label>Birthdate<input type="date" id="birthdate"></label>
+    <label>Country Code
+      <select id="countryCode">
+        <option value="">--Select--</option>
+        <option value="RW">RW</option>
+        <option value="KE">KE</option>
+        <option value="UG">UG</option>
+        <option value="DE">DE</option>
+        <option value="US">US</option>
+      </select>
+    </label>
+    <div id="errors" style="color:red;"></div>
+    <div id="countryInfo"></div>
+    <div id="errorInfo" style="color:red;"></div>
+    <button type="submit" id="saveBtn">Save</button>
+    <button type="button" id="clearBtn">Clear</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
