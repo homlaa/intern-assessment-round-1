@@ -1,0 +1,29 @@
+{
+  "name": "intern-assessment-round-1",
+  "version": "1.0.0",
+  "description": "_No entries yet._",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homlaa/intern-assessment-round-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/homlaa/intern-assessment-round-1/issues"
+  },
+  "homepage": "https://github.com/homlaa/intern-assessment-round-1#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "jsdom": "^30.0.1"
+  }
+}

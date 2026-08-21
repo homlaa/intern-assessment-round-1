@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Registration Form</h1>
+
+
+        <form id="registrationForm">
+
+
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+
+
+                <input
+                    type="text"
+                    id="firstName"
+                    name="firstName">
+
+                <small class="error" id="firstNameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+
+
+                <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                >
+
+
+                <small class="error" id="lastNameError"></small>
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Birthdate</label>
+
+
+                <input
+                    type="date"
+                    id="birthdate"
+                    name="birthdate"
+                >
+
+
+                <small class="error" id="birthdateError"></small>
+            </div>
+
+            <div class="form-group">
+
+
+                <label for="countryCode">
+                    Country Code
+                </label>
+
+
+                <select
+                    id="countryCode"
+                    name="countryCode"
+                >
+
+
+                    <option value="">
+                        Select Country
+                    </option>
+
+
+                    <option value="RW">
+                        RW - Rwanda
+                    </option>
+
+
+                    <option value="KE">
+                        KE - Kenya
+                    </option>
+
+
+                    <option value="UG">
+                        UG - Uganda
+                    </option>
+
+
+                    <option value="TZ">
+                        TZ - Tanzania
+                    </option>
+
+
+                    <option value="DE">
+                        DE - Germany
+                    </option>
+
+
+                    <option value="US">
+                        US - United States
+                    </option>
+
+
+                    <option value="GB">
+                        GB - United Kingdom
+                    </option>
+
+
+                    <option value="FR">
+                        FR - France
+                    </option>
+
+
+                </select>
+
+
+                <small class="error" id="countryCodeError"></small>
+
+
+            </div>
+
+            <div id="countryDetails" class="country-details">
+
+
+                <h2>Country Details</h2>
+
+
+                <p>
+                    <strong>Currency:</strong>
+                    <span id="currency">-</span>
+                </p>
+
+
+                <p>
+                    <strong>Population:</strong>
+                    <span id="population">-</span>
+                </p>
+
+
+                <p>
+                    <strong>Capital:</strong>
+                    <span id="capital">-</span>
+                </p>
+
+                <p>
+                    <strong>Phone Code:</strong>
+                    <span id="phoneCode">-</span>
+                </p>
+
+            </div>
+
+            <div class="buttons">
+
+                <button type="submit">
+                    Save
+                </button>
+
+
+                <button
+                    type="button"
+                    id="clearButton"
+                    class="clear-btn"
+                >
+                    Clear
+                </button>
+
+
+            </div>
+
+
+        </form>
+
+        <div id="message"></div>
+
+
+
+
+        <div class="troubleshooting">
+
+
+            <h2>Troubleshooting</h2>
+
+
+            <button id="testInvalidButton">
+                Test Invalid Country Code
+            </button>
+
+
+            <p id="errorStatus"></p>
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
