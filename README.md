@@ -1,4 +1,4 @@
 # Intern Assessment — Round 1
 
 ## Progress
-Git workflow test
+Started by Erick Kanja Round 1
