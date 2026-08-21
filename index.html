@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="/" method="get">
+        <label for="first_name" id="lab1">First Name</label>
+        <input type="text" id="first_name" name="first_name" placeholder="FIrst Name" required>
+        <label for="last_name">Last Name</label>
+        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+        <label for="birthdate">Birthdate</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+        <select name="country" id="country">
+            <option value="RW">RW</option>
+            <option value="KE">KE</option>
+            <option value="UG">UG</option>
+            <option value="DE">DE</option>
+            <option value="US">US</option>
+        </select>
+        <button id="save">Save</button>
+        <button>Clear</button>
+    </form>
+</body>
+</html>
